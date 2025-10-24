@@ -53,11 +53,11 @@ export function CallToAction() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Join the Mission
+            Join the Blind Community Mission
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Be part of the future of navigation. Whether you're interested in early access, 
-            investment opportunities, or partnerships, we'd love to hear from you.
+            Be part of empowering independence for the blind community. Whether you're interested in 
+            early access, investment opportunities, or partnerships, we'd love to hear from you.
           </p>
         </motion.div>
 
@@ -71,10 +71,10 @@ export function CallToAction() {
           <div className="max-w-2xl mx-auto text-center">
             <Mail className="w-16 h-16 text-blue-400 mx-auto mb-6" />
             <h3 className="text-2xl font-bold text-white mb-4">
-              Join the Waitlist
+              Join the Blind Community Waitlist
             </h3>
             <p className="text-gray-300 mb-6">
-              Be among the first to experience eyes-closed navigation. 
+              Be among the first blind individuals to experience confident, independent navigation. 
               Get early access and exclusive updates.
             </p>
             

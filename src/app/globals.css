@@ -46,3 +46,26 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Scrolling animation for backers */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll {
+  animation: scroll-reverse 30s linear infinite;
+}

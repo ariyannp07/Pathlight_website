@@ -42,7 +42,8 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl"
         >
-          Making eyesight optional. Smart glasses that guide you from point A to point B with your eyes closed.
+          Empowering the blind community with eyes-closed navigation. 
+          Smart glasses that guide you from point A to point B with confidence and independence.
         </motion.p>
 
         {/* CTA Button */}
