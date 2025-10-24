@@ -1,5 +1,6 @@
 import { Hero } from '@/components/Hero'
 import { Vision } from '@/components/Vision'
+import { Backers } from '@/components/Backers'
 import { Demo } from '@/components/Demo'
 import { Technology } from '@/components/Technology'
 import { Product } from '@/components/Product'
@@ -12,6 +13,7 @@ export default function Home() {
     <main className="min-h-screen bg-black text-white">
       <Hero />
       <Vision />
+      <Backers />
       <Demo />
       <Technology />
       <Product />
