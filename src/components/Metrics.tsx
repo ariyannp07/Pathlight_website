@@ -46,11 +46,11 @@ export function Metrics() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Proven Traction & Support
+            Metrics That Matter
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Real results from real testing with the blind community, backed by leading universities 
-            and organizations that believe in our mission.
+            Real results from real testing. These numbers represent thousands of hours 
+            of development and validation with the blind community.
           </p>
         </motion.div>
 
@@ -93,21 +93,21 @@ export function Metrics() {
           className="bg-gradient-to-r from-blue-900/20 to-purple-900/20 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/30"
         >
           <h3 className="text-xl font-semibold text-white mb-6 text-center">
-            University & Organization Support
+            Recognition & Press
           </h3>
           
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-gray-300 mb-2">Backed by</div>
-              <div className="text-white font-semibold">7 Leading Universities</div>
+              <div className="text-gray-300 mb-2">Featured in</div>
+              <div className="text-white font-semibold">TechCrunch</div>
             </div>
             <div>
-              <div className="text-gray-300 mb-2">Including</div>
-              <div className="text-white font-semibold">Yale Tsai Accelerator</div>
+              <div className="text-gray-300 mb-2">Winner of</div>
+              <div className="text-white font-semibold">Accessibility Innovation Award</div>
             </div>
             <div>
-              <div className="text-gray-300 mb-2">Founded by</div>
-              <div className="text-white font-semibold">Stanford & Yale Students</div>
+              <div className="text-gray-300 mb-2">Grant recipient</div>
+              <div className="text-white font-semibold">National Science Foundation</div>
             </div>
           </div>
         </motion.div>

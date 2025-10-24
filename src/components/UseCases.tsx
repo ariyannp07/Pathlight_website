@@ -18,20 +18,20 @@ export function UseCases() {
     },
     {
       icon: Users,
-      title: 'Social Confidence',
+      title: 'Social Interaction',
       description: 'Start and maintain conversations while navigating',
       color: 'from-blue-600 to-blue-700'
     },
     {
       icon: Smartphone,
-      title: 'Daily Independence',
-      description: 'Complete daily tasks without sighted assistance',
+      title: 'Multitasking',
+      description: 'Use your phone, listen to music, or work while moving',
       color: 'from-blue-700 to-blue-800'
     },
     {
       icon: Car,
-      title: 'Social Memory (Coming Soon)',
-      description: 'For sighted users: AR face recognition and conversation memory',
+      title: 'Future Mobility',
+      description: 'Hands-free navigation for autonomous vehicles',
       color: 'from-blue-800 to-blue-900'
     }
   ]
@@ -46,11 +46,11 @@ export function UseCases() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Empowering the Blind Community
+            Use Cases & Vision
           </h2>
           <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-            Starting with the blind community, Pathlight provides independence and confidence 
-            in navigation. Plus, we're developing Social Memory for sighted users.
+            Starting with blindness, but envisioning a future where eyes-closed 
+            navigation becomes the new standard for mobility.
           </p>
         </motion.div>
 
@@ -89,25 +89,28 @@ export function UseCases() {
           className="bg-gradient-to-r from-blue-900/20 to-purple-900/20 backdrop-blur-sm rounded-2xl p-12 border border-blue-500/30 text-center"
         >
           <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
-            Two Products, One Mission
+            Beyond Assistive Technology
           </h3>
           
           <p className="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed mb-6">
-            <strong>Pathlight</strong> empowers the blind community with confident, independent navigation. 
-            <strong>Social Memory</strong> (coming soon) helps sighted users remember faces, past conversations, 
-            and access information through AR and audio technology—enhancing social interactions and information access.
+            While we're starting with the blind community, Pathlight represents a fundamental 
+            shift in how humans interact with their environment. Imagine a world where 
+            navigation becomes as natural as breathing—where your eyes can focus on what 
+            matters most while your spatial awareness handles the rest.
           </p>
           
-          <div className="grid md:grid-cols-2 gap-8 mt-8">
+          <div className="grid md:grid-cols-3 gap-6 mt-8">
             <div className="text-center">
-              <div className="text-2xl font-bold text-blue-400 mb-2">Pathlight</div>
-              <div className="text-gray-300">Blind & Visually Impaired Navigation</div>
-              <div className="text-sm text-gray-400 mt-2">Available Now</div>
+              <div className="text-2xl font-bold text-blue-400 mb-2">Phase 1</div>
+              <div className="text-gray-300">Blind & Visually Impaired</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-blue-500 mb-2">Social Memory</div>
-              <div className="text-gray-300">Sighted Users: Face Recognition & Conversation Memory</div>
-              <div className="text-sm text-gray-400 mt-2">Coming Soon</div>
+              <div className="text-2xl font-bold text-blue-500 mb-2">Phase 2</div>
+              <div className="text-gray-300">Multitasking Professionals</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-blue-600 mb-2">Phase 3</div>
+              <div className="text-gray-300">Universal Navigation</div>
             </div>
           </div>
         </motion.div>

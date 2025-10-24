@@ -2,9 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Pathlight - Empowering the Blind Community',
-  description: 'Smart glasses that empower the blind community with confident, independent navigation. Plus Social Memory for sighted users.',
-  keywords: ['assistive technology', 'blind navigation', 'smart glasses', 'accessibility', 'blind community', 'spatial audio', 'AI navigation', 'social memory', 'face recognition'],
+  title: 'Pathlight - Navigate Life. Eyes Closed.',
+  description: 'Making eyesight optional. Smart glasses that guide you from point A to point B with your eyes closed.',
+  keywords: ['assistive technology', 'blind navigation', 'smart glasses', 'accessibility', 'eyes closed navigation', 'spatial audio', 'AI navigation'],
   authors: [{ name: 'Pathlight Team' }],
   creator: 'Pathlight',
   publisher: 'Pathlight',
@@ -18,8 +18,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'Pathlight - Empowering the Blind Community',
-    description: 'Smart glasses that empower the blind community with confident, independent navigation. Plus Social Memory for sighted users.',
+    title: 'Pathlight - Navigate Life. Eyes Closed.',
+    description: 'Making eyesight optional. Smart glasses that guide you from point A to point B with your eyes closed.',
     url: 'https://pathlightproj.com',
     siteName: 'Pathlight',
     images: [
@@ -35,8 +35,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pathlight - Empowering the Blind Community',
-    description: 'Smart glasses that empower the blind community with confident, independent navigation. Plus Social Memory for sighted users.',
+    title: 'Pathlight - Navigate Life. Eyes Closed.',
+    description: 'Making eyesight optional. Smart glasses that guide you from point A to point B with your eyes closed.',
     images: ['/og-image.jpg'],
   },
   robots: {

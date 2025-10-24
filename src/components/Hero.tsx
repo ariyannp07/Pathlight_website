@@ -16,7 +16,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="mb-8 opacity-100"
+          className="mb-8"
         >
           <div className="w-16 h-16 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg mx-auto flex items-center justify-center">
             <div className="w-8 h-8 bg-white rounded-sm" />
@@ -24,22 +24,38 @@ export function Hero() {
         </motion.div>
 
         {/* Main tagline */}
-        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
+        <motion.h1
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+          className="text-4xl md:text-5xl font-bold mb-6 text-white"
+        >
           Navigate Life.
           <br />
           <span className="text-blue-400">Eyes Closed.</span>
-        </h1>
+        </motion.h1>
 
         {/* Secondary tagline */}
-        <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl">
-          Empowering the blind community with eyes-closed navigation. 
-          Smart glasses that guide you from point A to point B with confidence and independence.
-        </p>
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+          className="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl"
+        >
+          Making eyesight optional. Smart glasses that guide you from point A to point B with your eyes closed.
+        </motion.p>
 
         {/* CTA Button */}
-        <button className="px-8 py-4 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300">
+        <motion.button
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.9 }}
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          className="px-8 py-4 bg-gradient-to-r from-blue-500 to-blue-600 text-white font-semibold rounded-full hover:shadow-lg hover:shadow-blue-500/25 transition-all duration-300"
+        >
           Join the Waitlist
-        </button>
+        </motion.button>
       </div>
 
       {/* Scroll indicator */}

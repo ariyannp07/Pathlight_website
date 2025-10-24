@@ -36,30 +36,16 @@ export function Backers() {
           </p>
         </motion.div>
 
-        {/* Scrolling logos */}
         <motion.div
           initial={{ opacity: 0 }}
           animate={isInView ? { opacity: 1 } : { opacity: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
           className="relative overflow-hidden"
         >
           <div className="flex animate-scroll">
-            {/* First set */}
-            {backers.map((backer, index) => (
-              <div
-                key={`first-${index}`}
-                className="flex-shrink-0 mx-8 flex flex-col items-center justify-center min-w-[200px]"
-              >
-                <div className="text-6xl mb-4">{backer.logo}</div>
-                <div className="text-white font-semibold text-center">{backer.name}</div>
-              </div>
-            ))}
-            {/* Second set for seamless loop */}
-            {backers.map((backer, index) => (
-              <div
-                key={`second-${index}`}
-                className="flex-shrink-0 mx-8 flex flex-col items-center justify-center min-w-[200px]"
-              >
+            {/* Duplicate the logos for seamless scrolling */}
+            {[...backers, ...backers].map((backer, index) => (
+              <div key={index} className="flex-shrink-0 mx-8 flex flex-col items-center justify-center min-w-[200px]">
                 <div className="text-6xl mb-4">{backer.logo}</div>
                 <div className="text-white font-semibold text-center">{backer.name}</div>
               </div>
@@ -67,11 +53,10 @@ export function Backers() {
           </div>
         </motion.div>
 
-        {/* Additional info */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
           className="mt-16 text-center"
         >
           <div className="bg-gradient-to-r from-blue-900/20 to-blue-800/20 backdrop-blur-sm rounded-2xl p-8 border border-blue-500/30">
@@ -79,8 +64,9 @@ export function Backers() {
               Founded by Stanford & Yale Students
             </h3>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              Our team combines expertise in entrepreneurship, healthcare, and engineering from two of the world's leading universities, 
-              bringing together academic excellence and real-world impact.
+              Our team combines expertise in entrepreneurship, healthcare, and engineering 
+              from two of the world's leading universities, bringing together academic 
+              excellence and real-world impact.
             </p>
           </div>
         </motion.div>
