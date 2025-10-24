@@ -22,22 +22,13 @@ export const metadata: Metadata = {
     description: 'Smart glasses that empower the blind community with confident, independent navigation. Plus Social Memory for sighted users.',
     url: 'https://pathlightproj.com',
     siteName: 'Pathlight',
-    images: [
-      {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Pathlight - Smart glasses for eyes-closed navigation',
-      },
-    ],
     locale: 'en_US',
     type: 'website',
   },
   twitter: {
-    card: 'summary_large_image',
+    card: 'summary',
     title: 'Pathlight - Empowering the Blind Community',
     description: 'Smart glasses that empower the blind community with confident, independent navigation. Plus Social Memory for sighted users.',
-    images: ['/og-image.jpg'],
   },
   robots: {
     index: true,
